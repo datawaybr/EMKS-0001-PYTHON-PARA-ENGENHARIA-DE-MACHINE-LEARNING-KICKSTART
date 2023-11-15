@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-eml"
+version = "0.1.0"
+description = "Ambiente virtual para módulo de Python para EML - Dataway BR"
+authors = ["Gabriel Saraiva <gabriel.alves@itriad.org.br>"]
+readme = "README.md"
+packages = [{include = "python_eml"}]
+
+[tool.poetry.dependencies]
+python = ">3.10 <3.11"
+pandas = "^2.1.3"
+numpy = "^1.26.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
