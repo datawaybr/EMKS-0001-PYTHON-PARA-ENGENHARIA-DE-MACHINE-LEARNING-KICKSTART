@@ -1,2 +1,3 @@
 *.pkl
 *__pycache__
+clean_housing.csv
